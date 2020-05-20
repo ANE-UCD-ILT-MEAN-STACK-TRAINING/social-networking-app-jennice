@@ -1,4 +1,4 @@
-const Post = require("../model/post");
+const Post = require("../model/posts");
 
 exports.createPost = (req, res, next) => {
     const url = req.protocol + "://" + req.get("host");
